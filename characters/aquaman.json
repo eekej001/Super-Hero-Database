@@ -1,0 +1,50 @@
+{
+	"images": [
+		 "images/AQ4.jpg",
+		 "images/SN.jpg",
+		 "images/PS.png",
+		 "images/AC.png"
+	],
+	
+	"name": "Aquaman",
+	"secretIdentity": "Arthur Curry",
+	"archenemy":"Oxygen",
+	"nickname": "'Who are you, again?'",
+	"city": "Atlantis",
+	"image": "images/AQ4.jpg",
+	"rimage": "images/AC.png",
+	"symbol": "images/symbols/AQsym.png",
+	"lair": "Behind His Wife, Where It's Safe",
+	"bio": "Half human, half Atlantean:  King of Atlantis.  Unfortunately, his status as a king does little to dissuade the incessant ridicule that he faces, simply for existing.  Furthermore, it is widely known that his subordinates are in fact more powerful than he could ever hope to be.  But who are we kidding?  That's not really saying much.  For a time he believed that no could tell if you were crying if you were underwater.  He was sorely mistaken.  Scientists are still trying to discover how it's possible for one being to hold so many L's.",
+	   
+	"associate1": {
+		"name": "Goofy Goober",
+		"rname": "Spongebob",
+		"image": "images/SN.jpg"
+	},
+		
+	"associate2": {
+		"name": "Goofy Goober 2",
+		"rname": "Patrick Star",
+		"image": "images/PS.png"
+	},
+
+	"abilities": [
+		"Enhanced Strength",
+		"Enhanced Durability",
+		"Communication With and Control Over Marine Life"
+	],	   
+
+	"weaknesses": [
+		"Air and All Who Breathe It"
+	],
+	
+	"weapons": [
+		"Some kind of fork or something"
+	],		
+	
+	"transportation": [
+		"Various Marine Life"
+	]
+	
+}

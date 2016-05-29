@@ -1,0 +1,55 @@
+{
+	"images": [
+		 "images/GA4.png",
+		 "images/RA.jpg",
+		 "images/SP.jpg",
+		 "images/OQ.jpg"
+	],
+	
+	"name": "The Green Arrow",
+	"secretIdentity": "Oliver Queen",
+	"archenemy":"Merlyn",
+	"nickname": "The Emerald Archer",
+	"city": "Star City",
+	"image": "images/GA4.png",
+	"rimage": "images/OQ.jpg",
+	"symbol": "images/symbols/GAsym.png",
+	"lair": "The Arrowcave",
+	"bio": "Formerly a billionare playboy.  After his ship went down at sea, he washed up on the shore of an island where he would spend the next 5 years.  He was forced to do one thing: survive.  Now he has returned to Star City with one goal in mind; to save his city.  But to do that, he has to become someone else.  He has to become, something else...",
+	   
+	"associate1": {
+		"name": "Red Arrow",
+		"rname": "Roy Harper",
+		"image": "images/RA.jpg"
+	},
+		
+	"associate2": {
+		"name": "Speedy",
+		"rname": "Mia Dearden",
+		"image": "images/SP.jpg"
+	},
+
+	"abilities": [
+		"Master Level Archery",
+		"Agility",
+		"Climbing a Salmon Ladder"
+	],	   
+
+	"weaknesses": [
+		"Normal Human Resilience"
+	],
+	
+	"weapons": [
+		"Bow and Arrow",
+		"Boxing Glove Arrow",
+		"Freeze Arrow",
+		"Net Arrow",
+		"Shock Arrow",
+		"Grappling Arrow"
+	],		
+	
+	"transportation": [
+		"Motorcycle"
+	]
+	
+}

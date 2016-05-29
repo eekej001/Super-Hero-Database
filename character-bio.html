@@ -1,0 +1,108 @@
+<div class="fullpic character-images">
+	<img ng-src="{{img}}" 
+		 ng-repeat="img in character.images"
+		 class="border2 fp character"
+         ng-class="{active: mainImg==img}"
+		 ng-click="setImg(character.image); resetClock()">
+</div>
+
+<!---
+	<img ng-src="{{img}}" 
+		 ng-repeat="img in character.images"
+		 class="border2 fp character"
+         ng-class="{active: mainImg==img}"
+		 ng-click="setImg(character.image)">
+</div>  -->
+
+
+<!--		 ng-class="{active: mainImg!=character.image}"  -->
+
+<!--class="border2 fp character" -->
+<!-- 
+  <div class="fullpic">
+	<img class="border2 fp" ng-src="{{mainImg}}" ng-click="setImg(character.image)"/> 
+  </div>
+  -->
+	
+<div class="namebio">
+	<h1 class="tshadow2"><span class="sback2">{{character.name}}</span>  <img class="symbol" ng-src="{{character.symbol}}"/></h1>
+	<p>{{character.bio}}</p>
+</div>
+
+<ul class="info" style="list-style-type:none">
+	<li class="ul1">
+		<dl>
+			<dt>Abilities</dt>
+				<dd class="backboard" ng-repeat="skill in character.abilities">{{skill}}</dd>
+		</dl>
+	</li>
+
+	
+	
+	
+	<li>
+		<dl>
+			<dt>Weapons</dt>
+				<dd class="backboard" ng-repeat="weapon in character.weapons">{{weapon | cross}}</dd>
+		</dl>
+	</li>
+	
+	
+	
+	
+	<li>
+		<dl>
+			<dt>Weaknesses</dt>
+				<dd class="backboard" ng-repeat="flaw in character.weaknesses">{{flaw | cross}}</dd>
+		</dl>
+	</li>
+	
+	
+	
+	<li>
+		<dl>
+			<dt>Transportation</dt>
+				<dd class="backboard" ng-repeat="vehicle in character.transportation">{{vehicle | cross}}</dd>
+		</dl>
+	</li>
+	
+</ul>
+
+<div class="main-bio backboard mb3">
+	<p class="mb2"><b><span class="mb">Secret Identity:</span></b><i> <a href="" ng-click="setImg(character.rimage); resetClock()">{{character.secretIdentity}}</a></i></p>
+	<p><b><span class="mb">Nickname:</span></b>  {{character.nickname}}</p>
+	<p><b><span class="mb">City:</span></b>  {{character.city}}</p>
+	<p><b><span class="mb">Lair:</span></b>  {{character.lair}}</p>
+	<p class="mb4"><b><span class="mb">Archenemy:</span></b> <span style="text-decoration:line-through;color:red;"> {{character.archenemy}} </span></p>
+</div>
+
+
+
+
+<h1 class="kA sback">Known Associates</h1>
+<div class="assoc">
+	<div class="assoc2">
+		<img ng-src="{{character.associate2.image}}" class="thumb" ng-click="setImg(character.associate2.image)"/>
+<!--	<img ng-src="{{character.associate2.image}}" class="thumb" ng-mouseenter="setImg(character.associate2.image)" ng-mouseleave="setImg(character.image)"/>  -->
+		<div class="kAinfo">
+		  <p><span class="mb"><b>Codename: </b></span><span style="font-weight:bold">{{character.associate2.name}}</span></p>
+		  <p><span class="mb"><b>Secret Identity: </b></span><span style="font-weight:bold">{{character.associate2.rname}}</span></p>
+	    </div>
+	</div>
+
+
+	<div class="assoc1">
+	  
+		<img ng-src="{{character.associate1.image}}" class="thumb" ng-click="setImg(character.associate1.image)"/>
+		<div class="kAinfo">
+		  <p><span class="mb"><b>Codename: </b></span><span style="font-weight:bold">{{character.associate1.name}}</span></p>
+		  <p><span class="mb"><b>Secret Identity: </b></span><span style="font-weight:bold">{{character.associate1.rname}}</span></p>
+	    </div>
+	</div>	
+</div>
+
+					<div class="footer">
+						<a href="google.com">About</a>
+						<a href="google.com">Affiliates</a>
+						<a href="google.com">FAQs</a>
+					</div>		

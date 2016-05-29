@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" class="back" ng-app="superHeroApp">
+  <head>
+	<meta charset="utf-8">
+	<title>Super Hero Database</title>	
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="animations.css">
+	
+	<script src = "jquery.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script> -->
+	<script src = "angular.js"></script>
+	<script src = "angular-animate.js"></script> 
+	<script src = "angular-route.js"></script>
+	<script src = "angular-resource.js"></script>
+	<script src = "sHapp.js"></script>
+	<script src = "animations.js"></script>
+	<script src = "controllers.js"></script>
+	
+		<div class ="home"><a href="#/characters" title="Home"><img class="homeIcon" src="images/home.png"></img></a></div>
+			<h1 class="background tshadow"><span class="sback3">Super Hero Database</span></h1>
+  </head>
+  
+  
+	<body>
+		
+	<!--	<div class="wrap">  --->
+		<div class="container"> 
+		<!-- REAL	<div class="view-frame" ng-view></div>  -->
+				<div ng-view class="view" autoscroll="true"></div>
+				
+				
+				<!-- <div  class="content" ng-view></div> -->
+		</div> 
+<!--					<div class="footer">
+						<a href="google.com">About</a>
+						<a href="google.com">Affiliates</a>
+						<a href="google.com">FAQs</a>
+					</div>	-->	
+ 
+	<!---	</div>	-->
+	</body>
+
+</html>
+	
+	<!-- add footer on timeout

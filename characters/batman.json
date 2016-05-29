@@ -1,0 +1,59 @@
+{
+	"images": [
+		 "images/BM4.jpg",
+		 "images/NW.jpg",
+		 "images/RH.jpg",
+		 "images/BW.jpg"
+	],
+	
+	"name": "Batman",
+	"secretIdentity": "Bruce Wayne",
+	"archenemy":"The Joker",
+	"nickname": "The Dark Knight",
+	"city": "Gotham City",
+	"image": "images/BM4.jpg",
+	"rimage": "images/BW.jpg",
+	"symbol": "images/symbols/BMsym.png",
+	"lair": "The Batcave",
+	"bio": "After witnessing his parents die in an alley at the age of 8, something dark and seriously awesome awoke in Bruce Wayne.  I mean it sucks for his parents and everything, but come on; he's Batman now. Batman is considered to be one of the greatest members of the Justice League despite his lack of super powers.  Always prepared, he has contingency plans to take down each member of the League and often times leads the team.",
+	   
+	"associate1": {
+		"name": "Nightwing",
+		"rname": "Dick Grayson",
+		"image": "images/NW.jpg"
+	},
+		
+	"associate2": {
+		"name": "Red Hood",
+		"rname": "Jason Todd",
+		"image": "images/RH.jpg"
+	},
+
+	"abilities": [
+		"Mastery of All Martial Arts",
+		"Genius Level Intellect",
+		"Peak Human",
+		"Agility",
+		"Master Tactition",
+		"Greatest Detective in the DC Universe",
+		"Resistance to Psychological Attacks"
+	],	   
+
+	"weaknesses": [
+		"Normal Human Resilience"
+	],
+	
+	"weapons": [
+		"Batarang",
+		"Smoke Bombs",
+		"Grappling Hook"
+	],		
+	
+	"transportation": [
+		"Batmobile",
+		"Batwing"
+	],
+	
+	"home":"images/home.png"
+	
+}

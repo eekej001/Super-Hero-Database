@@ -1,0 +1,51 @@
+{
+	"images": [
+		 "images/FL4.jpg",
+		 "images/KF.png",
+		 "images/IM.jpg",
+		 "images/BA.png"
+	],
+	
+	"name": "The Flash",
+	"secretIdentity": "Barry Allen",
+	"archenemy":"The Reverse Flash",
+	"nickname": "N/A",
+	"city": "Central City",
+	"image": "images/FL4.jpg",
+	"rimage": "images/BA.png",
+	"symbol": "images/symbols/FLsym.png",
+	"lair": "N/A",
+	"bio": "The fastest man alive.... Or at least he was, before Zoom gave him that work. Capable of accessing the Speed Force, but he wouldn't dare risk it.",
+	   
+	"associate1": {
+		"name": "Kid Flash",
+		"rname": "Wally West",
+		"image": "images/KF.png"
+	},
+		
+	"associate2": {
+		"name": "Impulse",
+		"rname": "Bart Allen",
+		"image": "images/IM.jpg"
+	},
+	
+	"abilities": [
+		"Super Speed",
+		"Time Travel",
+		"Phasing Through Matter",
+		"Wind Generation"
+	],	   
+
+	"weaknesses": [
+		"N/A"
+	],
+	
+	"weapons": [
+		"N/A"
+	],		
+	
+	"transportation": [
+		"N/A"
+	]
+	
+}

@@ -1,0 +1,56 @@
+{
+	"images": [
+		 "images/WW4.jpg",
+		 "images/DP.png",
+		 "images/WG.jpg",
+		 "images/ST.png"
+	],
+	
+	"name": "Wonder Woman",
+	"secretIdentity": "Diana Prince",
+	"archenemy":"Cheetah",
+	"nickname": "Wonder-Bae",
+	"city": "Themyscira",
+	"image": "images/WW4.jpg",
+	"rimage": "images/DP.png",
+	"symbol": "images/symbols/WWsym.png",
+	"lair": "N/A",
+	"bio": "Amazonian princess.  Daughter of Ares, the god of war.  Born and raised on an island of Amazons to be a warrior.  Her combat prowess is exceptional.  Part of the Trinity.",
+	   
+	"associate1": {
+		"name": "Wonder Girl",
+		"rname": "Cassie Sandsmark",
+		"image": "images/WG.jpg"
+	},
+		
+	"associate2": {
+		"name": "N/A",
+		"rname": "Steve Trevor",
+		"image": "images/ST.png"
+	},
+
+	"abilities": [
+		"Super Strength",
+		"Super Durability",
+		"Flight",
+		"Combat Expert"
+	],	   
+
+	"weaknesses": [
+		"N/A"
+	],
+	
+	"weapons": [
+		"Lasso of Truth",
+		"Sword",
+		"Shield",
+		"Magic Gauntlets"
+	],		
+	
+	"transportation": [
+		"The Invisible Jet"
+	],
+	
+	"home":"images/home.png"
+	
+}

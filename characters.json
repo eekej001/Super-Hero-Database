@@ -1,0 +1,50 @@
+[
+	{
+	   "name": "Batman",
+	   "id":"batman",
+	   "nickname": "The Dark Knight",
+	   "info": "He's freaking Batman. What else needs to be said?",
+	   "image": "images/BM.jpg",
+	   "power": 3
+	},
+	{
+	   "name": "Superman",
+	   "id":"superman",
+	   "nickname": "The Man of Steel",
+	   "info": "A god. You see him coming down the street, you go the other way.",
+	   "image": "images/SM.jpg",
+	   "power": 1
+	},	
+	{
+	   "name": "Wonder Woman",
+	   "id":"wonder-woman",
+	   "nickname": "Bae",
+	   "info": "Bruh...",
+	   "image": "images/WW.jpg",
+	   "power": 2
+	},	
+	{
+	   "name": "The Flash",
+	   "id":"flash",
+	   "nickname": "N/A",
+	   "info": "Formerly known as the fastest man alive. Now known as the dumbest man alive.  Currently on the run from Zoom.",
+	   "image": "images/FL.jpg",
+	   "power": 4
+	},		
+	{
+	   "name": "The Green Arrow",
+	   "id":"green-arrow",
+	   "nickname": "The Emerald Archer",
+	   "info": "Unmatched marksmenship. He will save this city.",
+	   "image": "images/GA.jpg",
+	   "power": 5
+	},		
+	{
+	   "name": "Aquaman",
+	   "id":"aquaman",
+	   "nickname": "Water Guy",
+	   "info": "Can hold his breath for a really, really long time.",
+	   "image": "images/AQ.jpg",
+	   "power": 6
+	}				
+]

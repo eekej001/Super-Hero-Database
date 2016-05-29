@@ -1,0 +1,59 @@
+<div class="front">
+	<div class="column1">
+	  <div class="search"> Search: <input ng-model="query"><br> </div>
+		Sort by: <select ng-model="order">
+			<option value="name">Alphabetical</option>
+			<option value="power">Power Level</option>
+			<option>Default</option>
+			</select>
+	</div>
+	<img class="vectorL vector" ng-src="{{imgL}}" ng-class="{active4: z==1, active5: z==0, active6: y==1,}"/>
+	<img class="vectorR vector" ng-src="{{imgR}}" ng-class="{active4: z==1, active5: z==0, active6: y==1,}"/>
+	
+	<img class="bat" ng-src="images/BvSb.png" ng-class="{active1: y==1, active2: y==2}"/>
+	<img class="kryp" ng-src="images/BvSs.png" ng-class="{active1: y==1, active2: y==2}"/>
+	
+	<div class="column2">
+		<ul style="list-style-type:none">
+			<li ng-repeat="hero in heroes | filter: query | orderBy: order" class="hero-listing"> 
+			  <div class="border">
+				<a href="#/characters/{{hero.id}}"><img class="imgs" ng-src="{{hero.image}}" alt="{{hero.name}}"/></a>
+				   <div class="main-page">	
+						<p><b><a style="color:#E00000" class="sback2" href="#/characters/{{hero.id}}">{{hero.name}}</a></b></p>
+						<p><b><span style="color:black">Nickname:</span></b> {{hero.nickname}}</p>
+						<p><b><i>{{hero.info}}</i></b></p>
+				   </div>
+			  </div>
+				   </div>
+			</li>
+		</ul>
+		
+
+	
+			
+</div>
+
+			
+
+					<div class="footer">
+						<a href="google.com">About</a>
+						<a href="google.com">Affiliates</a>
+						<a href="google.com">FAQs</a>
+					</div>		
+	
+	
+	
+<!--
+
+					<img class="vectorL" ng-src="{{ranVectL()}}"/>
+					<img class="vectorR" ng-src="{{ranVectR()}}"/>
+
+
+
+ <img style="float:left; position:relative; z-index:100; opacity: 0.8; height: 600px" ng-src="images/BatSh.png"/>
+	<img style="float:right; position:relative; z-index:100; opacity: 0.8; height: 600px; margin-right: -195px; margin-top:5px" ng-src="images/SupSh.png"/>  -->
+	
+	<!--	<img style="float:left; position:relative; z-index:100; opacity: 0.8; height: 600px" ng-src="images/bvs.png"/> -->
+		
+	 <!--	<img style="float:right;margin-right:45px;" ng-src="images/symbols/BMsym.png"/> -->
+	 <!--	<img style="float:left" ng-src="images/GAv.png"/> -->

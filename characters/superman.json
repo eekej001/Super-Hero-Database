@@ -1,0 +1,58 @@
+{
+	"images": [
+		 "images/SM4.jpg",
+		 "images/SB.jpg",
+		 "images/SG.jpg",
+		 "images/CK.jpg"
+	],
+	"name": "Superman",
+	"secretIdentity": "Clark Kent/Kal-El",
+	"archenemy":"Lex Luthor",
+	"nickname": "The Man of Steel",
+	"city": "Metropolis",
+	"image": "images/SM4.jpg",
+	"rimage": "images/CK.jpg",
+	"symbol": "images/symbols/SMsym.png",
+	"lair": "Fortress of Solitude",
+	"bio": "One of the last surviving members of the alien planet Krypton.  As a baby, he was sent on a spaceship to Earth just moments before the explosion of his home world.  Jonathan and Martha Kent found him when he crash-landed on Earth and raised him to be virtuous.  He is the strongest being on the planet and the leader of the Justice League.",
+	   
+	"associate1": {
+		"name": "Superboy",
+		"rname": "Connor Kent",
+		"image": "images/SB.jpg"
+	},
+		
+	"associate2": {
+		"name": "Supergirl",
+		"rname": "Kara Kent",
+		"image": "images/SG.jpg"
+	},
+
+	"abilities": [
+		"Flight",
+		"Super Strength",
+		"Super Speed",
+		"Invulnerability",
+		"Heat Vision",
+		"Super Hearing",
+		"Ice Breath",
+		"X-Ray Vision",
+		"Telescopic Vision"
+	],	   
+
+	"weaknesses": [
+		"Kryptonite",
+		"Red Sun",
+		"Magic",
+		"The Back of Batman's Hand"
+	],
+	
+	"weapons": [
+		"N/A"
+	],		
+	
+	"transportation": [
+		"N/A"
+	]
+	
+}
